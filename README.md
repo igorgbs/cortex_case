@@ -20,14 +20,14 @@ Para isso, alguns procedimentos foram adotados:
     - moeda_origem
     - moeda_final
     - valor desejado
-- Para utilizar o método, basta criar um arquivo *.py*, importar o arquivo que contém o método e chamá-lo. Exemplo:
+- Para utilizar o método, basta criar um *arquivo.py*, importar o arquivo que contém o método e chamá-lo. Exemplo:
 
 ```python
 from exercicio1 import *
 conversao_moedas('01-03-2020', 'AUD', 'USD', 150)
 ```
 
-OBS_1: Para fazer a importação do método, é bom que os dois arquivos (exercicio1.py e o arquivo.py, que contém a chamada do método, estejam no mesmo diretório)
+- Para fazer a importação do método, é bom que os dois arquivos (exercicio1.py e o arquivo.py, que contém a chamada do método, estejam no mesmo diretório)
 
 - Existe um padrão para sintaxe do método. Ex.:
     - data_cotacao: 'MM-DD-AAAA' (*formato*: string)
@@ -55,9 +55,6 @@ JPY   | Iene Japonês
 NOK   | Coroa Norueguesa
 SEK   | Coroa Sueca
 USD   | Dólar Americano
-
-
-- Para executar o script, basta ir ao terminal de sua máquina e digitar:  *python exercicio1.py* 
 
 
 ## **Exercício 2**
