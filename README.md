@@ -68,5 +68,5 @@ No segundo exercício foi apresentada uma [base de dados](https://docs.google.co
 
 Para resolver o problema proposto, a base de dados foi transformada para SQL, a fim de armazenar estas informações em banco. Além disso, facilitaria o desenvolvimento do script, já que o mesmo foi desenvolvido em SQL.
 
-O script de resolução do exercício 2 está todo contido num só arquivo chamado [exercicio2.sql](https://github.com/igorgbs/cortex_case/blob/master/exercicio2.sql). Nele estão contidos todos os scripts para resolver os 3 itens do exercício 2. Basta executar o script no MySQL Workbench (ou em algum outro ambiente SQL).
+O script de resolução do exercício 2 está todo contido num só arquivo, chamado [exercicio2.sql](/exercicio2.sql). Nele estão contidos todos os scripts para resolver os 3 itens do exercício 2. Basta executar o script no MySQL Workbench (ou em algum outro ambiente SQL).
 
