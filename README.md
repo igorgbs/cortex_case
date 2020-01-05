@@ -1,8 +1,7 @@
-**Case Cortex**
+#**Case Cortex**
 
 Case proposto para a vaga de Engenheiro de Software Pleno na Cortex-Intelligence
 
-[Ir para seção](#Exercício2)
 
 ##**Exercício 2**
 
@@ -10,4 +9,4 @@ No segundo exercício foi apresentada uma [base de dados](https://docs.google.co
 
 Para resolver este problema, deve-se instalar o seguinte:
 
-
+MySQL: dispoível para download [aqui](https://www.mysql.com/downloads/)
