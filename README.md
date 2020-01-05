@@ -2,7 +2,7 @@
 
 Case proposto para a vaga de Engenheiro de Software Pleno na Cortex-Intelligence.
 
-Para resolver este problemas, deve-se instalar o seguinte:
+Para resolver estes problemas, deve-se instalar o seguinte:
 
 1. Python: disponível para download [aqui](https://www.python.org/downloads/)
 2. MySQL Workbench: disponível para download [aqui](https://www.mysql.com/downloads/)
