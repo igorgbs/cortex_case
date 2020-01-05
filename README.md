@@ -18,7 +18,7 @@ No primeiro exercício, foi solicitado um serviço (API) que pudesse ser capaz d
 
 Para isso, alguns procedimentos foram adotados:
 
-- Para a obtenção dos dados das cotações de moedas do Banco Central, foi utilizado o método de API REST disponibilizado pelo [Banco Central](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/aplicacao#!/recursos/CotacaoMoedaPeriodo#eyJmb3JtdWxhcmlvIjp7IiRmb3JtYXQiOiJqc29uIiwiJHRvcCI6MTAwfX0=). A documentação deste método pode ser acessada [aqui](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/documentacao) 
+- Para a obtenção dos dados das cotações de moedas do Banco Central, foi utilizado o método de API REST disponibilizado pelo BC. Podendo ser acessado [aqui](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/aplicacao#!/recursos/CotacaoMoedaPeriodo#eyJmb3JtdWxhcmlvIjp7IiRmb3JtYXQiOiJqc29uIiwiJHRvcCI6MTAwfX0=). A documentação deste método pode ser acessada [aqui](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/documentacao). 
 - Com isso, foi desenvolvido um script em python, chamado [exercicio1.py](https://github.com/igorgbs/cortex_case/blob/master/exercicio1.py), que realiza esta conversão a partir dos dados do Banco Central.
 - O método contido na API foi denominado de: *conversao_moedas()*. Onde seus parâmetros são:
     - data_cotacao 
@@ -32,7 +32,7 @@ from exercicio1 import *
 conversao_moedas('01-03-2020', 'AUD', 'USD', 150)
 ```
 
-- Para fazer a importação do método, é bom que os dois arquivos (exercicio1.py e o arquivo.py, que contém a chamada do método, estejam no mesmo diretório)
+- Para fazer a importação do método, é bom que os dois arquivos (exercicio1.py e o arquivo.py, que contém a chamada do método, estejam no mesmo diretório).
 
 - Existe um padrão para sintaxe do método. Ex.:
     - data_cotacao: 'MM-DD-AAAA' (*formato*: string)
