@@ -24,6 +24,7 @@ Para isso, alguns procedimentos foram adotados:
 
     from exercicio1 import*
     conversao_moedas('01-03-2020', 'AUD', 'USD', 150)
+O `<blockquote>` é uma tag HTML.
 
 
 - Para executar o script, basta ir ao terminal de sua máquina e digitar:  *python exercicio1.py* 
