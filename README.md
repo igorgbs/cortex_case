@@ -32,7 +32,7 @@ from exercicio1 import *
 conversao_moedas('01-03-2020', 'AUD', 'USD', 150)
 ```
 
-- Para fazer a importação do método, é bom que os dois arquivos (exercicio1.py e o arquivo.py, que contém a chamada do método, estejam no mesmo diretório).
+- Para fazer a importação do método, é bom que os dois arquivos (exercicio1.py e o arquivo.py, que contém a chamada do método), estejam no mesmo diretório.
 
 - Existe um padrão para sintaxe do método. Ex.:
     - data_cotacao: 'MM-DD-AAAA' (*formato*: string)
