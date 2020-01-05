@@ -27,10 +27,35 @@ from exercicio1 import *
 conversao_moedas('01-03-2020', 'AUD', 'USD', 150)
 ```
 
+OBS_1: Para fazer a importação do método, é bom que os dois arquivos (exercicio1.py e o arquivo.py, que contém a chamada do método, estejam no mesmo diretório)
+
 - Existe um padrão para sintaxe do método. Ex.:
     - data_cotacao: 'MM-DD-AAAA' (*formato*: string)
     - moeda_orgiem: 'AUD' (*formato*: string)
-    - moeda_final: 'USD' (*formato*: float)
+    - moeda_final: 'USD' (*formato*: string)
+    - valor_desejado: 150 (*formato*: float)
+
+- Alguns casos foram tratados, tais como:
+
+1. Se você inserir uma data de cotação posterior a data corrente, o código irá gerar um aviso: **Não é possível acessar a cotação de uma data posterior a hoje!**
+2. Se você inserir alguma sigla de moeda (tanto para a moeda de origem quanto para moeda final) não disponibilizada pelo Banco Central, o código irá gerar um aviso: **Moedas não disponíveis para consulta!**
+3. Se você inserir alguma data de cotação que seja fim de semana ou feriado, o código irá gerar um aviso: **Verifique se a data que colocou não é um fim de semana ou feriado. Se for, não será possível acessar a cotação deste dia!**
+
+- As moedas disponibilizadas pelo Banco Central são:
+
+Sigla | Moeda
+----- | -----
+AUD   | Dólar Australiano
+CAD   | Dólar Canadense
+CHF   | Franco Suíço
+DKK   | Coroa Dinamarquesa
+EUR   | Euro
+GBP   | Libra Esterlina
+JPY   | Iene Japonês
+NOK   | Coroa Norueguesa
+SEK   | Coroa Sueca
+USD   | Dólar Americano
+
 
 - Para executar o script, basta ir ao terminal de sua máquina e digitar:  *python exercicio1.py* 
 
