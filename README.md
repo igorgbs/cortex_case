@@ -12,4 +12,7 @@ Para resolver este problema, deve-se instalar o seguinte:
 1. MySQL: disponível para download [aqui](https://www.mysql.com/downloads/)
 2. Python: disponível para download [aqui](https://www.python.org/downloads/)
 
+Para resolver o problema proposto, a base de dados foi transformada para SQL, a fim de armazenar em banco estas informações. Além disso, facilitaria o desenvolvimento do script, se esta base estivesse em SQL.
+
+O script de resolução do exercício 2 está todo contido num só arquivo chamado [exercício2.sql](link aqui!). Nele estão contidos todos os scripts para resolver os 3 itens do exercício 2.
 
