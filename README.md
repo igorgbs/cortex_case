@@ -2,9 +2,9 @@
 
 Case proposto para a vaga de Engenheiro de Software Pleno na Cortex-Intelligence
 
-[Ir para seção](#Exercício 2)
+[Ir para seção](#Exercício2)
 
-**Exercício 2**
+##**Exercício 2**
 
 No segundo exercício foi apresentada uma [base de dados](https://docs.google.com/spreadsheets/d/1CELbpon5O66OkW3fXIl36gJ8P7thUBKrRag_QP0Uwfg/edit#gid=1297471854) e foi pedido um script a fim de criar agregações dos resultados.
 
