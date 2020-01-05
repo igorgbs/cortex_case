@@ -22,11 +22,15 @@ Para isso, alguns procedimentos foram adotados:
     - valor desejado
 - Para utilizar o método, basta criar um arquivo *.py*, importar o arquivo que contém o método e chamá-lo. Exemplo:
 
-
 ```python
 from exercicio1 import *
 conversao_moedas('01-03-2020', 'AUD', 'USD', 150)
 ```
+
+- Existe um padrão para sintaxe do método. Ex.:
+    - data_cotacao: 'MM-DD-AAAA' (*formato*: string)
+    - moeda_orgiem: 'AUD' (*formato*: string)
+    - moeda_final: 'USD' (*formato*: float)
 
 - Para executar o script, basta ir ao terminal de sua máquina e digitar:  *python exercicio1.py* 
 
