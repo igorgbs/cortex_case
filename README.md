@@ -9,4 +9,7 @@ No segundo exercício foi apresentada uma [base de dados](https://docs.google.co
 
 Para resolver este problema, deve-se instalar o seguinte:
 
-MySQL: dispoível para download [aqui](https://www.mysql.com/downloads/)
+1. MySQL: dispoível para download [aqui](https://www.mysql.com/downloads/)
+2. Python: dispoível para download [aqui](https://www.python.org/downloads/)
+
+
