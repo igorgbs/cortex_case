@@ -15,7 +15,7 @@ Para isso, alguns procedimentos foram adotados:
 
 - Para a obtenção dos dados das cotações de moedas do Banco Central, foi utilizado o método de API REST disponibilizado pelo [Banco Central](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/aplicacao#!/recursos/CotacaoMoedaPeriodo#eyJmb3JtdWxhcmlvIjp7IiRmb3JtYXQiOiJqc29uIiwiJHRvcCI6MTAwfX0=). A documentação deste método pode ser acessada [aqui](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/documentacao) 
 - Com isso, foi desenvolvido um script em python, chamado [exercicio1.py](link aqui!), que realiza esta conversão a partir dos dados do Banco Central.
-- Para executar o script, basta ir ao terminal de sua máquina e digitar python exercicio1.py
+- Para executar o script, basta ir ao terminal de sua máquina e digitar * *python exercicio1.py* *
 
 
 ## **Exercício 2**
