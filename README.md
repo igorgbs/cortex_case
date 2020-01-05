@@ -22,12 +22,10 @@ Para isso, alguns procedimentos foram adotados:
     - valor desejado
 - Para utilizar o método, basta criar um arquivo *.py*, importar o arquivo que contém o método e chamá-lo. Exemplo:
 
-`<from exercicio1 import *>`
-`<conversao_moedas('01-03-2020', 'AUD', 'USD', 150)>`
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+
+```python
+from exercicio1 import *
+conversao_moedas('01-03-2020', 'AUD', 'USD', 150)
 ```
 
 - Para executar o script, basta ir ao terminal de sua máquina e digitar:  *python exercicio1.py* 
