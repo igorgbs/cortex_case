@@ -1,6 +1,7 @@
-asadad
-asdasd
-asdasd
-asd
-asd
-asd
+**Case Cortex**
+
+
+
+**Exercício 1**
+
+
