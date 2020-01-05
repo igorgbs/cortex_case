@@ -19,7 +19,7 @@ No primeiro exercício, foi solicitado um serviço (API) que pudesse ser capaz d
 Para isso, alguns procedimentos foram adotados:
 
 - Para a obtenção dos dados das cotações de moedas do Banco Central, foi utilizado o método de API REST disponibilizado pelo [Banco Central](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/aplicacao#!/recursos/CotacaoMoedaPeriodo#eyJmb3JtdWxhcmlvIjp7IiRmb3JtYXQiOiJqc29uIiwiJHRvcCI6MTAwfX0=). A documentação deste método pode ser acessada [aqui](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/documentacao) 
-- Com isso, foi desenvolvido um script em python, chamado [exercicio1.py](link aqui!), que realiza esta conversão a partir dos dados do Banco Central.
+- Com isso, foi desenvolvido um script em python, chamado [exercicio1.py](https://github.com/igorgbs/cortex_case/blob/master/exercicio1.py), que realiza esta conversão a partir dos dados do Banco Central.
 - O método contido na API foi denominado de: *conversao_moedas()*. Onde seus parâmetros são:
     - data_cotacao 
     - moeda_origem
@@ -68,5 +68,5 @@ No segundo exercício foi apresentada uma [base de dados](https://docs.google.co
 
 Para resolver o problema proposto, a base de dados foi transformada para SQL, a fim de armazenar estas informações em banco. Além disso, facilitaria o desenvolvimento do script, já que o mesmo foi desenvolvido em SQL.
 
-O script de resolução do exercício 2 está todo contido num só arquivo chamado [exercicio2.sql](link aqui!). Nele estão contidos todos os scripts para resolver os 3 itens do exercício 2. Basta executar o script no MySQL Workbench (ou em algum outro ambiente SQL).
+O script de resolução do exercício 2 está todo contido num só arquivo chamado [exercicio2.sql](https://github.com/igorgbs/cortex_case/blob/master/exercicio2.sql). Nele estão contidos todos os scripts para resolver os 3 itens do exercício 2. Basta executar o script no MySQL Workbench (ou em algum outro ambiente SQL).
 
